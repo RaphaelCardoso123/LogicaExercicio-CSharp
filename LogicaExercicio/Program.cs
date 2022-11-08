@@ -5,6 +5,7 @@ namespace Course {
 
             static void CalcularMedia() {
 
+
                 Console.WriteLine("Digite a quantidade de notas a ser calculada: ");
                 int quantNotas = Convert.ToInt32(Console.ReadLine());
 
@@ -14,6 +15,7 @@ namespace Course {
                     double notas = Convert.ToDouble(Console.ReadLine());
                     soma += notas;
                 }
+
 
                 double media;
                 media = soma / quantNotas;
@@ -25,6 +27,7 @@ namespace Course {
                 else {
                     Console.WriteLine("Você reprovou!!");
                 }
+
 
                 Console.WriteLine("Deseja calcular outra média?");
                 Console.WriteLine("Digite 1 para sim");
