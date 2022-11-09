@@ -16,9 +16,9 @@ namespace Course {
                     soma += notas;
                 }
 
-
+               
                 double media;
-                media = soma / quantNotas;
+                media = Math.Round((soma / quantNotas), 2);
                 Console.WriteLine("A média do aluno foi de: " + media);
 
                 if (media >= 6) {
