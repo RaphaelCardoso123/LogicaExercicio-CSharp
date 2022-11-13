@@ -25,7 +25,7 @@ namespace Course {
                     Console.WriteLine("Parabéns, você passou!!");
                 }
                 else {
-                    Console.WriteLine("Você reprovou!!");
+                    Console.WriteLine("Você ficou de recuperação!!");
                 }
 
 
