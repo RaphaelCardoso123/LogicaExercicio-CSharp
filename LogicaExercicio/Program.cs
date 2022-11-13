@@ -28,7 +28,7 @@ namespace Course {
                     Console.WriteLine("Você ficou de recuperação!!");
                 }
 
-
+                Console.WriteLine( );
                 Console.WriteLine("Deseja calcular outra média?");
                 Console.WriteLine("Digite 1 para sim");
                 int outraMedia = Convert.ToInt32(Console.ReadLine());
